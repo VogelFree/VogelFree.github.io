@@ -11,6 +11,6 @@ main =
 view : () -> Html ()
 view _ =
     div [ style "text-align" "center", style "padding" "50px", style "background-color" "#f0f0f0" ]
-        [ img [ src "logo.jpg", style "max-width" "200px", style "margin-bottom" "20px" ] []  -- Add your logo here
+        [ img [ src "logo.png", style "max-width" "200px", style "margin-bottom" "20px" ] []  -- Add your logo here
         , h1 [ style "color" "#333", style "font-size" "36px" ] [ text "Coming Soon!" ]
         ]
